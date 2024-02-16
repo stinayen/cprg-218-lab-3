@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  /* Mobile (max-width: 768px): 1x9 layout */
+  @media only screen and (max-width: 768px) {
+    .card {
+      width: 100%; 
+      margin-bottom: 20px; 
+    }
+    .card-container {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    div {
+      padding: 30px;
+    }
+      /*Animal*/
+      h3.subheader{font-family: "Roboto", sans-serif;
+          font-size: 20px;
+          font-weight: 300;
+          line-height: 1;
+          text-transform: uppercase;
+      }
+      h4.header {
+          font-family: "Roboto", sans-serif;
+          font-size: 20px;
+          font-weight: 900;
+        }
+        /*Lorem*/
+        p.paragraph{
+      
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        }
+        /*Remove list dot*/
+        ul {
+        list-style-type: none;}
+        
+        }
+  
+  /* Tablet (min-width: 768px): 2x4 layout */
+  @media only screen and (max-width: 1260px) and (min-width: 768px){
+    .card {
+      width: 48%; 
+      margin-right: 4%; 
+      margin-bottom: 10px; 
+    }
+    
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:center;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    .card {
+      width: 48%;
+      margin-right: 2.7%;
+      margin-bottom: 30px;
+    }
+    .card:nth-child(2n) {
+      margin-right: 0;
+    }
+    .card:nth-child(2n + 1) {
+      clear: both;
+      
+      }
+      .card:last-child {
+        width: 98.6%;
+        margin-right: 0; 
+      
+      }
+    
+      div {
+        padding: 50px;
+      }
+        /*Animal*/
+        h3.subheader{font-family: "Roboto", sans-serif;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 1;
+            text-transform: uppercase;
+        }
+    
+        h4.header {
+            font-family: "Roboto", sans-serif;
+            font-size: 20px;
+            font-weight: 900;
+            padding-bottom: 5px;
+          }
+    
+          /*Lorem*/
+          p.paragraph{
+        
+          font-family: "Roboto", sans-serif;
+          font-weight: 500;
+          padding-top: 10px;
+          padding-right: 90px;
+          padding-bottom: 20px;
+          }
+  /*Remove list dot*/
+        ul {
+        list-style-type: none;}
+  }
+  /* Desktop (min-width: 1200px): 3 × 3 (33% width cards) */
+  @media screen and (min-width: 1200px) {
+   
+    div {
+      padding: 50px;
+    }
+      /*Animal*/
+      h3.subheader{font-family: "Roboto", sans-serif;
+          font-size: 20px;
+          font-weight: 300;
+          line-height: 1;
+          text-transform: uppercase;
+      }
+      h4.header {
+          font-family: "Roboto", sans-serif;
+          font-size: 20px;
+          font-weight: 900;
+          padding-bottom: 5px;
+        }
+        /*Lorem*/
+        p.paragraph{
+      
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        padding-top: 10px;
+        padding-right: 90px;
+        padding-bottom: 25px;
+        
+        }
+    
+      /* Three columns */
+      .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+      }
+    
+      .card {
+      
+        width: 31%; 
+        margin-right: 1.8%;
+        margin-bottom: 1.8%;
+      }
+    
+      .card:nth-child(3n) 
+      {
+          margin-right: 0; 
+      }
+      /*Remove list dot*/
+      ul {
+        list-style-type: none;}
+  }
+  
