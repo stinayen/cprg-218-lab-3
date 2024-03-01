@@ -1,0 +1,93 @@
+
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+    .YoutubeSection {
+      background-color: #f0f0f0;
+      padding: 10px; 
+      text-align: center;
+    }
+  
+    .YoutubeVideo {
+      max-width: 85%; 
+      margin: 20px auto 0; 
+      padding-bottom: 55%; 
+      overflow: hidden;
+      position: relative;
+    }
+  
+    .YoutubeVideo iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      border-radius: 0.25rem;
+      box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
+    }
+  }
+  
+  /*Tablet*/
+    @media only screen and (max-width: 1260px) and (min-width: 768px)
+    {
+        .YoutubeSection {
+            background-color: #f0f0f0;
+            padding: 15px; 
+            text-align: center;
+          }
+          
+          .YoutubeVideo {
+            position: relative;
+            width: 85%; 
+            height: 30%;
+            max-width: 1200px;
+            margin: 30px auto 0;
+            padding-top: 10%;
+            overflow: hidden;
+        
+          }
+          
+          .YoutubeVideo iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0; 
+            border-radius: 0.25rem;
+            box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
+          }
+    }
+
+    /*Desktop*/
+    @media screen and (min-width: 1200px) {
+      .YoutubeSection {
+      background-color: #f0f0f0;
+      padding: 15px; 
+      text-align: center;
+    }
+    
+    .YoutubeVideo {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      max-width: 1200px;
+      margin: 50px auto 0; 
+      padding-bottom: 30%;
+      overflow: hidden;
+  
+    }
+    
+    .YoutubeVideo iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0; 
+      border-radius: 0.25rem;
+      box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
+    }
+  }
+  
